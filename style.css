@@ -685,6 +685,10 @@ footer a {
   display: none;
 }
 @media (max-width: 850px) {
+  .experience-grid {
+  grid-template-columns: 1fr;
+  gap: 45px;
+}
   .header {
     padding: 0 18px;
   }
@@ -737,6 +741,22 @@ footer a {
   html {
     scroll-padding-top: 70px;
   }
+  .experience-card {
+  padding: 22px;
+}
+
+.experience-top {
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience-card h3 {
+  font-size: 25px;
+}
+
+.experience-date {
+  align-self: flex-start;
+}
   .header {
     height: 64px;
   }
@@ -1505,4 +1525,29 @@ footer a {
   font-size: 13px;
   line-height: 1.8;
   margin-top: 14px;
+}
+@media(max-width:850px) {
+  .experience-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+}
+
+@media(max-width:520px) {
+  .experience-card {
+    padding: 22px;
+  }
+
+  .experience-top {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .experience-card h3 {
+    font-size: 25px;
+  }
+
+  .experience-date {
+    align-self: flex-start;
+  }
 }
