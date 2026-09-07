@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#08080b">
+  <meta name="description" content="Satyam Garg — Computer Science student, full-stack developer, AI/ML enthusiast and problem solver.">
+  <meta property="og:title" content="Satyam Garg — Developer Portfolio">
+  <meta property="og:description" content="Computer Science student exploring full-stack development, AI/ML and problem solving.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/Satyam-garg27">
+  <title>Satyam Garg — Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <div class="grid-bg"></div>
+
+  <header class="header" id="header">
+    <a class="logo" href="#home" aria-label="Satyam Garg home">
+      <span class="logo-box">SG</span><span>Satyam<span class="dim">.dev</span></span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#stack">Stack</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="header-link" href="https://github.com/Satyam-garg27" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> Curious by nature · Builder by choice</div>
+        <h1>I build, break,<br><span class="gradient">and figure things out.</span></h1>
+        <p class="hero-lead">
+          I'm <strong>Satyam Garg</strong>, a Computer Science student exploring
+          full-stack development, AI/ML and problem solving. I like understanding
+          how things work — then turning that understanding into something real.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#work">Explore my work <span>↓</span></a>
+          <a class="btn ghost" href="mailto:satyamgarg755@gmail.com">Let's talk ↗</a>
+        </div>
+
+        <div class="hero-facts">
+          <span>Full Stack</span><i></i><span>AI / ML</span><i></i><span>DSA</span><i></i><span>Always learning</span>
+        </div>
+      </div>
+
+      <div class="hero-side reveal delay-1">
+        <div class="portrait-wrap">
+          <div class="portrait-halo"></div>
+          <img class="portrait" src="WhatsApp Image 2026-03-12 at 00.58.36.jpeg" alt="Satyam Garg GitHub profile picture">
+          <div class="portrait-info">
+            <span><span class="dot"></span> Currently building</span>
+            <strong>Curiosity → Learn → Build → Debug → Improve</strong>
+          </div>
+        </div>
+        <div class="orbit-chip chip-react">React</div>
+        <div class="orbit-chip chip-java">Java</div>
+        <div class="orbit-chip chip-python">Python</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="section-intro reveal">
+          <h2>More interested in <span class="gradient">why</span> than just what.</h2>
+          <p>
+            I don't want to simply know what a technology does. I want to understand
+            why it works, how the pieces fit together, and what I can build with it.
+          </p>
+        </div>
+
+        <div class="about-content reveal delay-1">
+          <p>
+            My interests sit at the intersection of <strong>software development,
+            AI/ML and problem solving</strong>. I've been using projects as a way
+            to learn — from building web interfaces and REST-backed applications
+            to experimenting with NLP and AI-powered systems.
+          </p>
+          <p>
+            Right now, I'm strengthening my foundations in full-stack development,
+            Java, React and DSA while continuing to explore machine learning and
+            system design concepts.
+          </p>
+
+          <div class="principle">
+            <span class="principle-mark">“</span>
+            <div>
+              <strong>Don't just learn a technology. Build something with it.</strong>
+              <small>My developer philosophy</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat"><strong data-count="10">10</strong><span>Public repositories</span></div>
+        <div class="stat"><strong data-count="185">185+</strong><span>LeetCode problems</span></div>
+        <div class="stat"><strong>4</strong><span>Featured projects</span></div>
+        <div class="stat"><strong>∞</strong><span>Things left to learn</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-label reveal">02 / Selected work</div>
+      <div class="section-heading reveal">
+        <div>
+          <h2>Things I've <span class="gradient">built.</span></h2>
+          <p>Projects are where I turn curiosity into something tangible.</p>
+        </div>
+        <a class="underlink" href="https://github.com/Satyam-garg27?tab=repositories" target="_blank" rel="noopener noreferrer">View all repositories ↗</a>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI / ML</button>
+        <button class="filter" data-filter="fullstack">Full Stack</button>
+        <button class="filter" data-filter="web">Web</button>
+      </div>
+
+      <div class="project-marquee reveal" aria-label="Featured projects">
+  <div class="project-track">
+
+    <!-- AuraBot -->
+    <a
+      class="project-thumb"
+      data-category="ai fullstack"
+      href="https://github.com/Satyam-garg27/AuraBot"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open AuraBot project"
+    >
+      <img
+        src="aura.png"
+        alt="AuraBot project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+
+      <div class="thumb-content">
+        <span class="thumb-number">01 / AI · FULL STACK</span>
+        <h3>AuraBot</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <!-- Fake News Detection -->
+    <a
+      class="project-thumb"
+      data-category="ai"
+      href="https://github.com/Satyam-garg27/Fake-News-Detector"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open Fake News Detection project"
+    >
+      <img
+        src="fake.png"
+        alt="Fake News Detection project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+
+      <div class="thumb-content">
+        <span class="thumb-number">02 / AI · NLP</span>
+        <h3>Fake News Detection</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <!-- CineVerse -->
+    <a
+      class="project-thumb"
+      data-category="fullstack"
+      href="https://github.com/Satyam-garg27/CineVerse"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open CineVerse project"
+    >
+      <img
+        src="cine.png"
+        alt="CineVerse project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+
+      <div class="thumb-content">
+        <span class="thumb-number">03 / FULL STACK</span>
+        <h3>CineVerse</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <!-- SpaceDrive -->
+    <a
+      class="project-thumb"
+      data-category="web"
+      href="https://github.com/Satyam-garg27/SpaceDrive"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open SpaceDrive project"
+    >
+      <img
+        src="space.png"
+        alt="SpaceDrive project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+
+      <div class="thumb-content">
+        <span class="thumb-number">04 / WEB EXPERIENCE</span>
+        <h3>SpaceDrive</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <!-- Duplicate set for seamless infinite loop -->
+
+    <a
+      class="project-thumb"
+      data-category="ai fullstack"
+      href="https://github.com/Satyam-garg27/AuraBot"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open AuraBot project"
+    >
+      <img
+        src="aura.png"
+        alt="AuraBot project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+      <div class="thumb-content">
+        <span class="thumb-number">01 / AI · FULL STACK</span>
+        <h3>AuraBot</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <a
+      class="project-thumb"
+      data-category="ai"
+      href="https://github.com/Satyam-garg27/Fake-News-Detector"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open Fake News Detection project"
+    >
+      <img
+        src="fake.png"
+        alt="Fake News Detection project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+      <div class="thumb-content">
+        <span class="thumb-number">02 / AI · NLP</span>
+        <h3>Fake News Detection</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <a
+      class="project-thumb"
+      data-category="fullstack"
+      href="https://github.com/Satyam-garg27/CineVerse"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open CineVerse project"
+    >
+      <img
+        src="cine.png"
+        alt="CineVerse project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+      <div class="thumb-content">
+        <span class="thumb-number">03 / FULL STACK</span>
+        <h3>CineVerse</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+    <a
+      class="project-thumb"
+      data-category="web"
+      href="https://github.com/Satyam-garg27/SpaceDrive"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Open SpaceDrive project"
+    >
+      <img
+        src="space.png"
+        alt="SpaceDrive project preview"
+        loading="lazy"
+      >
+      <div class="thumb-overlay"></div>
+      <div class="thumb-content">
+        <span class="thumb-number">04 / WEB EXPERIENCE</span>
+        <h3>SpaceDrive</h3>
+        <span class="thumb-link">View project ↗</span>
+      </div>
+    </a>
+
+  </div>
+</div>
+    </section>
+
+   <section class="section" id="experience">
+  <div class="section-label reveal">03 / Experience</div>
+
+  <div class="experience-grid">
+
+    <div class="experience-visual reveal">
+
+  <a
+    class="website-preview"
+    href="https://satyameducationsociety.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit Satyam Education Society website"
+  >
+    <div class="website-preview-top">
+      <span class="preview-label">LIVE WEBSITE</span>
+      <span class="preview-arrow">↗</span>
+    </div>
+
+    <div class="website-image">
+      <img
+        src="ses.png"
+        alt="Satyam Education Society website preview"
+      >
+
+      <div class="preview-overlay">
+        <span>Visit website ↗</span>
+      </div>
+    </div>
+
+    <div class="website-preview-info">
+      <div>
+        <strong>Satyam Education Society</strong>
+        <span>Official NGO Website</span>
+      </div>
+
+      <span class="live-dot"></span>
+    </div>
+  </a>
+
+  <div class="experience-visual-text">
+    <h2>Building for <span class="gradient">people.</span></h2>
+
+    <p>
+      Beyond personal projects, I've had the opportunity to work with a
+      real organization and turn its needs into a production-ready
+      digital platform.
+    </p>
+  </div>
+
+</div>
+
+    <div class="experience-card reveal delay-1">
+
+      <div class="experience-top">
+        <div>
+          <span class="experience-type">
+            NGO · FREELANCE
+          </span>
+
+          <h3>Frontend Web Developer</h3>
+
+          <p class="experience-org">
+            Satyam Education Society (SES)
+          </p>
+        </div>
+
+        <span class="experience-date">
+          2026 — Present
+        </span>
+      </div>
+
+      <div class="experience-line"></div>
+
+      <p class="experience-description">
+        Took ownership of the organization's website from requirements
+        gathering through production deployment, working directly with
+        the founder to turn a real organizational need into a functional
+        digital platform.
+      </p>
+
+      <div class="experience-points">
+
+        <div class="experience-point">
+          <span>01</span>
+          <p>
+            Established a modern online presence for a grassroots NGO
+            working across education, awareness, community development,
+            environmental initiatives and social welfare.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>02</span>
+          <p>
+            Translated non-technical organizational requirements into an
+            intuitive, responsive interface that communicates the NGO's
+            mission and work clearly across devices.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>03</span>
+          <p>
+            Owned the technical delivery workflow, including frontend
+            development, SEO, custom-domain setup, DNS configuration,
+            HTTPS, hosting and automated deployments.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>04</span>
+          <p>
+            Established a GitHub → Vercel CI/CD workflow, making future
+            website updates faster and more reliable.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>05</span>
+          <p>
+            Built a structured platform for presenting the organization's
+            mission, leadership, initiatives, certifications, gallery
+            and community impact.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>06</span>
+          <p>
+            Continue working with the organization to incorporate feedback,
+            maintain the platform and expand its capabilities.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>07</span>
+          <p>
+            Currently developing an Activities & Reports section to
+            document initiatives and make reports accessible to the public,
+            improving transparency.
+          </p>
+        </div>
+
+        <div class="experience-point">
+          <span>08</span>
+          <p>
+            Gained hands-on experience delivering software for a real
+            stakeholder while balancing technical decisions, communication,
+            deployment and continuous iteration.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="experience-tags">
+        <span>Next.js</span>
+        <span>React</span>
+        <span>Tailwind CSS</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Vercel</span>
+        <span>SEO</span>
+      </div>
+
+      <div class="experience-links">
+        <a
+          href="https://satyameducationsociety.in"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit website ↗
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <section class="section" id="stack">
+      <div class="section-label reveal">03 / Toolkit</div>
+      <div class="section-heading reveal">
+        <div>
+          <h2>Tools I <span class="gradient">use to build.</span></h2>
+          <p>A growing toolkit, not a checklist.</p>
+        </div>
+      </div>
+
+      <div class="stack">
+        <div class="stack-group reveal"><span class="stack-number">01</span><h3>Languages</h3><div><b>Java</b><b>Python</b><b>JavaScript</b><b>HTML</b><b>CSS</b></div></div>
+        <div class="stack-group reveal delay-1"><span class="stack-number">02</span><h3>Frontend</h3><div><b>React</b><b>Vite</b><b>Responsive UI</b></div></div>
+        <div class="stack-group reveal delay-2"><span class="stack-number">03</span><h3>Backend</h3><div><b>Spring Boot</b><b>Node.js</b><b>Express</b><b>REST APIs</b></div></div>
+        <div class="stack-group reveal"><span class="stack-number">04</span><h3>Data & AI</h3><div><b>MongoDB</b><b>scikit-learn</b><b>NLP</b><b>Hugging Face</b><b>Qwen</b></div></div>
+        <div class="stack-group reveal delay-1"><span class="stack-number">05</span><h3>Developer tools</h3><div><b>Git</b><b>GitHub</b><b>VS Code</b><b>Streamlit</b></div></div>
+        <div class="stack-group reveal delay-2"><span class="stack-number">06</span><h3>Currently exploring</h3><div><b>System Design</b><b>Full-stack Java</b><b>DSA</b><b>AI systems</b></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-label reveal">04 / The journey</div>
+      <div class="journey-grid">
+        <div class="section-intro reveal">
+          <h2>Learning by <span class="gradient">shipping.</span></h2>
+          <p>
+            Every project has been a way to move from “I wonder how this works”
+            to “let me build it and find out.”
+          </p>
+          <a class="btn ghost" href="https://leetcode.com/u/SatyamGARG_27/" target="_blank" rel="noopener noreferrer">My LeetCode ↗</a>
+        </div>
+
+        <div class="timeline reveal delay-1">
+          <div class="timeline-item">
+            <span>01</span>
+            <div><h3>Web foundations</h3><p>Started by understanding the web through HTML, CSS and JavaScript, then moved into interactive interfaces and responsive design.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>02</span>
+            <div><h3>Full-stack thinking</h3><p>Moved beyond the UI into APIs, authentication, databases and application architecture through projects like ShowVerse.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>03</span>
+            <div><h3>AI / ML experiments</h3><p>Explored NLP and machine learning with Fake News Detection, then moved toward AI-powered application ideas with AuraBot.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>04</span>
+            <div><h3>Problem solving</h3><p>Alongside development, I've been consistently working through DSA problems and building a stronger foundation for software engineering.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-kicker">05 / Let's build something</div>
+        <h2>Have an idea?<br><span class="gradient">I'm listening.</span></h2>
+        <p>
+          Whether it's a project, collaboration, opportunity, or simply a technical
+          conversation — feel free to reach out.
+        </p>
+        <div class="actions center">
+          <a class="btn primary" href="mailto:satyamgarg755@gmail.com">Email me ↗</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/satyam-garg-342148216/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="btn ghost" href="https://github.com/Satyam-garg27" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Satyam Garg</span>
+    <span>Curiosity → Learn → Build → Improve</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
