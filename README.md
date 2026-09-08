@@ -29,3 +29,4 @@ The hero currently uses the GitHub avatar URL. Replace it with a local photo if 
 ## Recent Updates
 
 - Improved portfolio project documentation.
+Contact : satyamgarg755@gmail.com
