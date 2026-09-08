@@ -26,3 +26,6 @@ Open `index.html` directly, or use any static server.
 - Email: satyamgarg755@gmail.com
 
 The hero currently uses the GitHub avatar URL. Replace it with a local photo if you want the site to be fully self-contained.
+## Recent Updates
+
+- Improved portfolio project documentation.
